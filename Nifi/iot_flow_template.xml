@@ -55,32 +55,7 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>572c82c4-afac-36c6-0000-000000000000</id>
-            <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
-                <id>d5ed00b2-0a27-3c2c-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>success</selectedRelationships>
-            <source>
-                <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
-                <id>0c07e370-b2ba-328b-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>59c57b88-e852-33ff-0000-000000000000</id>
+            <id>5d8d5e36-3678-3906-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
@@ -100,19 +75,19 @@
             <selectedRelationships>success</selectedRelationships>
             <source>
                 <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
-                <id>d5ed00b2-0a27-3c2c-0000-000000000000</id>
+                <id>7fbe3f72-f671-3102-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>7d6df628-81ce-3577-0000-000000000000</id>
+            <id>7382b480-1151-37cc-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
-                <id>8f821aca-b2fc-3510-0000-000000000000</id>
+                <id>7fbe3f72-f671-3102-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -125,7 +100,7 @@
             <selectedRelationships>success</selectedRelationships>
             <source>
                 <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
-                <id>d5ed00b2-0a27-3c2c-0000-000000000000</id>
+                <id>0c07e370-b2ba-328b-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -153,6 +128,31 @@
                 <id>3854e001-17e0-3d33-0000-000000000000</id>
                 <type>PROCESSOR</type>
                 <versionedComponentId>44774a8b-6bc1-380d-aa3f-14d433dd07fe</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>f2141c77-9a6d-3f1f-0000-000000000000</id>
+            <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
+                <id>8f821aca-b2fc-3510-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bf97c5f2-1350-3ce4-0000-000000000000</groupId>
+                <id>7fbe3f72-f671-3102-0000-000000000000</id>
+                <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
@@ -678,8 +678,8 @@
             <id>0c07e370-b2ba-328b-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
-                <x>272.0</x>
-                <y>232.0</y>
+                <x>0.0</x>
+                <y>248.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -764,9 +764,9 @@
     "channel_id": "channel_id",
     "created_at": "created_at",
     "entry_id": "entry_id",
-    "field1": "tempurature",
+    "field1": "temperature",
     "field2": "humidity",
-    "field3": "ligh",
+    "field3": "light",
     "field4": "atmosphere"
 }</value>
                     </entry>
@@ -801,7 +801,7 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
         </processors>
@@ -809,7 +809,7 @@
             <id>0f4c4620-a494-384a-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
-                <x>560.0</x>
+                <x>568.0</x>
                 <y>472.0</y>
             </position>
             <bundle>
@@ -957,7 +957,7 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -966,7 +966,7 @@
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
                 <x>1320.0</x>
-                <y>8.0</y>
+                <y>0.0</y>
             </position>
             <versionedComponentId>b8d3c55e-2db7-3310-8afa-d7105ac812a7</versionedComponentId>
             <bundle>
@@ -1080,7 +1080,7 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.standard.PutFile</type>
         </processors>
@@ -1088,7 +1088,7 @@
             <id>3854e001-17e0-3d33-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
-                <x>0.0</x>
+                <x>8.0</x>
                 <y>0.0</y>
             </position>
             <versionedComponentId>44774a8b-6bc1-380d-aa3f-14d433dd07fe</versionedComponentId>
@@ -1364,15 +1364,140 @@
                 <name>parse.failure</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.mqtt.ConsumeMQTT</type>
+        </processors>
+        <processors>
+            <id>7fbe3f72-f671-3102-0000-000000000000</id>
+            <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
+            <position>
+                <x>552.0</x>
+                <y>248.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.27.0</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>jolt-transform</key>
+                        <value>
+                            <name>jolt-transform</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>jolt-custom-class</key>
+                        <value>
+                            <dependencies>
+<dependentValues>jolt-transform-custom</dependentValues>
+<propertyName>jolt-transform</propertyName>
+                            </dependencies>
+                            <name>jolt-custom-class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>jolt-custom-modules</key>
+                        <value>
+                            <dependencies>
+<dependentValues>jolt-transform-custom</dependentValues>
+<propertyName>jolt-transform</propertyName>
+                            </dependencies>
+                            <name>jolt-custom-modules</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>jolt-spec</key>
+                        <value>
+                            <name>jolt-spec</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Transform Cache Size</key>
+                        <value>
+                            <name>Transform Cache Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>pretty_print</key>
+                        <value>
+                            <name>pretty_print</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max String Length</key>
+                        <value>
+                            <name>Max String Length</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>jolt-transform</key>
+                        <value>jolt-transform-default</value>
+                    </entry>
+                    <entry>
+                        <key>jolt-custom-class</key>
+                    </entry>
+                    <entry>
+                        <key>jolt-custom-modules</key>
+                    </entry>
+                    <entry>
+                        <key>jolt-spec</key>
+                        <value>{
+      "source": "NY Weather Station"
+}</value>
+                    </entry>
+                    <entry>
+                        <key>Transform Cache Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>pretty_print</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Max String Length</key>
+                        <value>20 MB</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>add metadata</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
         </processors>
         <processors>
             <id>8a3eed69-cb2c-3919-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
-                <x>0.0</x>
+                <x>8.0</x>
                 <y>472.0</y>
             </position>
             <bundle>
@@ -1687,7 +1812,7 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.kafka.pubsub.ConsumeKafkaRecord_2_0</type>
         </processors>
@@ -1695,8 +1820,8 @@
             <id>8f821aca-b2fc-3510-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
-                <x>1320.0</x>
-                <y>264.0</y>
+                <x>1328.0</x>
+                <y>248.0</y>
             </position>
             <bundle>
                 <artifact>nifi-kafka-2-0-nar</artifact>
@@ -2028,105 +2153,15 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.kafka.pubsub.PublishKafkaRecord_2_0</type>
-        </processors>
-        <processors>
-            <id>d5ed00b2-0a27-3c2c-0000-000000000000</id>
-            <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
-            <position>
-                <x>520.0</x>
-                <y>16.0</y>
-            </position>
-            <bundle>
-                <artifact>nifi-update-attribute-nar</artifact>
-                <group>org.apache.nifi</group>
-                <version>1.27.0</version>
-            </bundle>
-            <config>
-                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
-                <bulletinLevel>WARN</bulletinLevel>
-                <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                <descriptors>
-                    <entry>
-                        <key>Delete Attributes Expression</key>
-                        <value>
-                            <name>Delete Attributes Expression</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Store State</key>
-                        <value>
-                            <name>Store State</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Stateful Variables Initial Value</key>
-                        <value>
-                            <name>Stateful Variables Initial Value</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>canonical-value-lookup-cache-size</key>
-                        <value>
-                            <name>canonical-value-lookup-cache-size</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>source</key>
-                        <value>
-                            <name>source</name>
-                        </value>
-                    </entry>
-                </descriptors>
-                <executionNode>ALL</executionNode>
-                <lossTolerant>false</lossTolerant>
-                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
-                <penaltyDuration>30 sec</penaltyDuration>
-                <properties>
-                    <entry>
-                        <key>Delete Attributes Expression</key>
-                    </entry>
-                    <entry>
-                        <key>Store State</key>
-                        <value>Do not store state</value>
-                    </entry>
-                    <entry>
-                        <key>Stateful Variables Initial Value</key>
-                    </entry>
-                    <entry>
-                        <key>canonical-value-lookup-cache-size</key>
-                        <value>100</value>
-                    </entry>
-                    <entry>
-                        <key>source</key>
-                        <value>"Stony Ford Station, Campbell Hall, NY"</value>
-                    </entry>
-                </properties>
-                <retryCount>10</retryCount>
-                <runDurationMillis>25</runDurationMillis>
-                <schedulingPeriod>0 sec</schedulingPeriod>
-                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                <yieldDuration>1 sec</yieldDuration>
-            </config>
-            <executionNodeRestricted>false</executionNodeRestricted>
-            <name>add metadata</name>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>success</name>
-                <retry>false</retry>
-            </relationships>
-            <state>RUNNING</state>
-            <style/>
-            <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
         </processors>
         <processors>
             <id>d7ebc007-5e62-3769-0000-000000000000</id>
             <parentGroupId>bf97c5f2-1350-3ce4-0000-000000000000</parentGroupId>
             <position>
-                <x>1320.0</x>
+                <x>1328.0</x>
                 <y>480.0</y>
             </position>
             <bundle>
@@ -2334,7 +2369,7 @@
                     </entry>
                     <entry>
                         <key>influxdb-tags</key>
-                        <value>channel_id, status</value>
+                        <value>channel_id, status, source, created_at</value>
                     </entry>
                     <entry>
                         <key>influxdb-tags-field-behavior</key>
@@ -2342,7 +2377,7 @@
                     </entry>
                     <entry>
                         <key>influxdb-fields</key>
-                        <value>field1, field2, field3, field4, field5, field6, field7, field8, latitude, longitude, elevation</value>
+                        <value>tempurature, humidity, light, atmosphere</value>
                     </entry>
                     <entry>
                         <key>influxdb-fields-field-behavior</key>
@@ -2392,10 +2427,10 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.influxdata.nifi.processors.PutInfluxDatabaseRecord</type>
         </processors>
     </snippet>
-    <timestamp>09/20/2024 10:21:39 CDT</timestamp>
+    <timestamp>09/20/2024 11:51:55 CDT</timestamp>
 </template>
