@@ -25,6 +25,9 @@ Project Structure
 - test_mqtt.py: for testing the connection to a TTN MQTT broker.
 - start_kafka.sh: starts kafka broker for transporting json data in Nifi
 
+Project Visualization:
+![IoT Data Streaming Pipeline](https://github.com/user-attachments/assets/925aedbe-6b86-4a7d-9b98-718c79df531f)
+
 
 Nifi Flow:
 ![image](https://github.com/user-attachments/assets/b8db6351-c715-4eb2-9ca5-6e124f53e679)
